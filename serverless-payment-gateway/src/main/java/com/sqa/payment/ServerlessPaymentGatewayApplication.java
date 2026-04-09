@@ -1,0 +1,13 @@
+package com.sqa.payment;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ServerlessPaymentGatewayApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ServerlessPaymentGatewayApplication.class, args);
+	}
+
+}

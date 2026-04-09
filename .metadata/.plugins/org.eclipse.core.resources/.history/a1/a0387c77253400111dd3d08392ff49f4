@@ -1,0 +1,5 @@
+package com.sqa.payment;
+
+public interface PaymentAPI {
+    boolean process(double amount);
+}
