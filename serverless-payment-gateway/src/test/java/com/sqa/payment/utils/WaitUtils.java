@@ -23,4 +23,4 @@ public class WaitUtils {
     public boolean waitForUrlContains(String text) {
         return wait.until(ExpectedConditions.urlContains(text));
     }
-}
+}	
