@@ -11,16 +11,11 @@ public class ProductPage {
         this.driver = driver;
     }
 
-    // Locators
-    By firstProduct = By.className("inventory_item_name");
+    // ✅ Add to cart directly from inventory page
     By addToCartBtn = By.id("add-to-cart-sauce-labs-backpack");
     By cartIcon = By.className("shopping_cart_link");
 
-    // Actions
-    public void selectProduct(){
-        driver.findElement(firstProduct).click();
-    }
-
+    // No need to click product anymore
     public void addToCart(){
         driver.findElement(addToCartBtn).click();
     }
